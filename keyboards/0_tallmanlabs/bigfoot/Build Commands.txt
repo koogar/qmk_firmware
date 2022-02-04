@@ -1,4 +1,4 @@
-Build Firmware in QMK MSYS
+Build Firmware in QMK MSYS!
 
 cd qmk_firmware
 
