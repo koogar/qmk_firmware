@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "notes": "",
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+  "keyboard": "the_ruler",
+  "keymap": "the_ruler_layout_mine",
+  "layout": "LAYOUT",
+  "layers": [
+    [
+      "KC_1",
+      "KC_2",
+      "KC_3",
+      "KC_4",
+      "KC_5",
+      "KC_6"
+    ],
+    [
+      "RGB_TOG",
+      "RGB_HUD",
+      "RGB_HUI",
+      "RGB_SAD",
+      "RGB_SAI",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "RGB_VAD",
+      "RGB_VAI",
+      "RGB_MOD",
+      "ANY(LCTL(LSFT(KC_ESC)))",
+      "RESET"
+    ]
+  ],
+  "author": ""
+}
